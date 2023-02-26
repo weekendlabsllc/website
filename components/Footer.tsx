@@ -11,8 +11,18 @@ export default function Footer() {
                         </Link>
                     </li>
                     <li className="footer__list__item">
+                        <Link href="/projects" className="footer__list__link">
+                            Projects
+                        </Link>
+                    </li>
+                    <li className="footer__list__item">
                         <Link href="/about" className="footer__list__link">
                             About
+                        </Link>
+                    </li>
+                    <li className="footer__list__item">
+                        <Link href="/careers" className="footer__list__link disabled">
+                            Careers
                         </Link>
                     </li>
                     <li className="footer__list__item">
@@ -22,8 +32,7 @@ export default function Footer() {
                     </li>
                 </ul>
                 <span>
-                    Copyright &copy; {(new Date().getFullYear())} Owen Bick. All Rights Reserved. This website
-                    doesn’t use any cookies.
+                    Copyright &copy; {(new Date().getFullYear())} Weekend Labs. All Rights Reserved. Made with ❤️ and ☕ in Boston.
                 </span>
             </div>
         </footer>

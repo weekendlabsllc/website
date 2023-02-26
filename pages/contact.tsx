@@ -3,46 +3,47 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Clock from 'react-live-clock';
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact – Owen Bick</title>
+        <title>Contact – Weekend Labs</title>
         <link rel="icon" href="./static/favicon.ico" />
-        <meta name="description" content="Contact Owen Bick" />
-        <meta name="author" content="Owen Bick" />
+        <meta name="description" content="Contact Weekend Labs" />
+        <meta name="author" content="Weekend Labs" />
       </Head>
       <Header></Header>
       <Layout>
         <section className="hero">
           <div className="container">
-            <h1>Contact Me</h1>
+            <h1>Contact Weekend Labs</h1>
+          </div>
+        </section>
+        <section className="contact">
+          <div className="container">
+            <h3>Email us</h3>
+            <a href="mailto:owenbick@gmail.com">hello@weekendlabs.net</a>
+          </div>
+        </section>
+        <section className="time">
+          <div className="container">
+            <Clock format={'MMMM Mo, YYYY, h:mm:ss A'} ticking={true} timezone={'US/Eastern'}></Clock>
+            <span>EST - Boston, Massachusetts</span>
           </div>
         </section>
         <section className="social">
           <div className="container">
-            <h3>Email me</h3>
-            <a href="mailto:owenbick@gmail.com">owenbick@gmail.com</a>
-          </div>
-        </section>
-        <section className="social">
-          <div className="container">
-            <h3>Follow me</h3>
+            <h3>Follow us</h3>
             <span>Twitter: </span>
-            <Link href="https://twitter.com/owenbick" target="_blank">@owenbick</Link>
+            <Link href="https://twitter.com/weekendlabs" target="_blank">@weekendlabs</Link>
             <br />
             <span>LinkedIn: </span>
-            <Link href="https://linkedin.com/in/bick" target="_blank">@bick</Link>
+            <Link href="https://linkedin.com/company/weekend-labs" target="_blank">@weekendlabs</Link>
             <br />
             <span>GitHub: </span>
-            <Link href="https://github.com/bick" target="_blank">@bick</Link>
-            <br />
-            <span>ProductHunt: </span>
-            <Link href="https://producthunt.com/@bick" target="_blank">@bick</Link>
-            <br />
-            <span>Instagram: </span>
-            <Link href="https://instagram.com/owenbick" target="_blank">@owenbick</Link>
+            <Link href="https://github.com/weekendlabsllc" target="_blank">@weekendlabs</Link>
           </div>
         </section>
       </Layout>

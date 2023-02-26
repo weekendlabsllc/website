@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
+import { useState } from "react";
+import Image from "next/image";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -9,41 +11,41 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Owen Bick – A product consultant and web developer based in Boston
+          Weekend Labs – A product consultancy based in Boston
         </title>
         <link rel="icon" href="./static/favicon.ico" />
-        <meta name="description" content="Owen Bick is a product consultant and web developer based in Boston." />
-        <meta name="author" content="Owen Bick" />
+        <meta name="description" content="Weekend Labs is a full-service software consultancy based in Boston." />
+        <meta name="author" content="Weekend Labs" />
       </Head>
       <Header></Header>
       <Layout>
-        <section className="hero">
+        <section className="hero home">
           <div className="container">
-            <h1>
-              Hi, I&apos;m <span className="line">Owen Bick</span>
-              <span className="wave">👋</span>
-            </h1>
-            <h2>I&apos;m a product consultant and web developer based in Boston</h2>
+            <h1>Weekend Labs is a full-service software consultancy, working closely with founders and innovators to build the internet companies of tomorrow.</h1>
           </div>
         </section>
-        <section className="portfolio">
+        <section className="bullets">
           <div className="container">
             <h3>Featured Projects</h3>
-            <ul className="portfolio__list">
-              <li>
-                <Link href="https://weekendlabs.net" target="_blank">Weekend Labs</Link>
-                <span>, A full-service product consultancy</span>
-              </li>
+            <ul className="bullets__list">
               <li>
                 <Link href="https://spoteasy.com" target="_blank">Spot Easy</Link>
                 <span>, Boston's #1 apartment rentals directory</span>
               </li>
               <li>
-                <Link href="https://devgigs.com" target="_blank">Impossible Chess</Link>
+                <Link href="https://discountdrugnetwork.com" target="_blank">Discount Drug Network</Link>
+                <span>, A pharmaceutical drug pricing API</span>
+              </li>
+              <li>
+                <Link href="https://bostonjuniorbruins.com" target="_blank">Boston Junior Bruins</Link>
+                <span>, Nationally-ranked AAU youth hockey team</span>
+              </li>
+              <li>
+                <Link href="https://impossiblechess.com" target="_blank">Impossible Chess</Link>
                 <span>, How long can you last against the world's best chess engine?</span>
               </li>
               <li>
-                <Link href="https://websiteshowcase.org" target="_blank">Website Showcase</Link>
+                <Link href="https://websitehalloffame.org" target="_blank">Website Hall of Fame</Link>
                 <span>, A collection of some awesome websites</span>
               </li>
             </ul>
@@ -51,15 +53,8 @@ export default function Home() {
         </section>
         <section className="about">
           <div className="container">
-            <h3>About Me</h3>
-            <p>
-              I&apos;m Owen, I&apos;m a product consultant and web developer that currently lives in
-              Boston. I&apos;ve helped many companies build digital products that are
-              more human. My philosophy is simple: design products in a way that
-              allows someone to use the product for the first time and feel like
-              they understand what they&apos;re looking at. They don&apos;t need to be
-              experts, but a digital product should not be overwhelming.
-            </p>
+            <h3>About Weekend Labs</h3>
+            <p>Weekend Labs is a software consulting and investment collective based in Boston. Founded in 2021, Weekend Labs is a tight-knit collective of industry insiders, analysts, and innovators. We are open, collaborative, and use our collective experience, design and technical expertise to create meaningful and compelling content for all mediums. We take a hands-on approach to consulting in a way that truly feels like a business partner.</p>
             <Link href="/about">
               Read more &#8594;
             </Link>
@@ -67,21 +62,15 @@ export default function Home() {
         </section>
         <section className="social">
           <div className="container">
-            <h3>Follow me</h3>
+            <h3>Follow us</h3>
             <span>Twitter: </span>
-            <Link href="https://twitter.com/owenbick" target="_blank">@owenbick</Link>
+            <Link href="https://twitter.com/weekendlabs" target="_blank">@weekendlabs</Link>
             <br />
             <span>LinkedIn: </span>
-            <Link href="https://linkedin.com/in/bick" target="_blank">@bick</Link>
+            <Link href="https://linkedin.com/company/weekend-labs" target="_blank">@weekendlabs</Link>
             <br />
             <span>GitHub: </span>
-            <Link href="https://github.com/bick" target="_blank">@bick</Link>
-            <br />
-            <span>ProductHunt: </span>
-            <Link href="https://producthunt.com/@bick" target="_blank">@bick</Link>
-            <br />
-            <span>Instagram: </span>
-            <Link href="https://instagram.com/owenbick" target="_blank">@owenbick</Link>
+            <Link href="https://github.com/weekendlabsllc" target="_blank">@weekendlabs</Link>
           </div>
         </section>
       </Layout>

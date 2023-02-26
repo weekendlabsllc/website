@@ -8,45 +8,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>About – Owen Bick</title>
+        <title>About – Weekend Labs</title>
         <link rel="icon" href="./static/favicon.ico" />
-        <meta name="description" content="About Owen Bick" />
-        <meta name="author" content="Owen Bick" />
+        <meta name="description" content="About Weekend Labs" />
+        <meta name="author" content="Weekend Labs" />
       </Head>
       <Header></Header>
       <Layout>
         <section className="hero">
           <div className="container">
-            <h1>About Owen Bick</h1>
+            <h1>About Weekend Labs</h1>
           </div>
         </section>
         <section className="about">
           <div className="container">
-            <h3>About Me</h3>
-            <p>
-              I&apos;m Owen, I&apos;m a product consultant and web developer that currently lives in
-              Boston. I&apos;ve helped many companies build digital products that are
-              more human. My philosophy is simple: design products in a way that
-              allows someone to use the product for the first time and feel like
-              they understand what they&apos;re looking at. They don&apos;t need to be
-              experts, but a digital product should not be overwhelming.
-              <br />
-              <br />I started developing for the web as a hobby about 12 years ago so I know the tech jargon that matters the most in some of the most complex business cases. I have worked as a software engineer professionally for about 5 years where I have gained an aptitude for simplifying and building out complex infrastructures as economically as possible.
-              <br />
-              <br />I generally focus on working with startups (Series A, B, &amp; C rounds) who are looking to build a digital product, raise money, and/or expand their engineering and product teams.
-            </p>
-          </div>
-        </section>
-        <section className="social">
-          <div className="container">
-            <h3>My tech stack</h3>
-            <span>MacBook Pro (14-inch, M1 Pro)</span>
-            <br />
-            <span>24" LG Ultrafine Monitor (x2)</span>
-            <br />
-            <span>Keychron K10</span>
-            <br />
-            <span>Logitech MX Master 2S</span>
+            <h3>About Weekend Labs</h3>
+            <p>Weekend Labs is a software consulting and investment collective based in Boston. Founded in 2021, Weekend Labs is a tight-knit collective of industry insiders, analysts, and innovators. We are open, collaborative, and use our collective experience, design and technical expertise to create meaningful and compelling content for all mediums. We take a hands-on approach to consulting in a way that truly feels like a business partner.</p>
           </div>
         </section>
         <section className="social">
@@ -56,21 +33,15 @@ export default function Home() {
         </section>
         <section className="social">
           <div className="container">
-            <h3>Follow me</h3>
+            <h3>Follow us</h3>
             <span>Twitter: </span>
-            <Link href="https://twitter.com/owenbick" target="_blank">@owenbick</Link>
+            <Link href="https://twitter.com/weekendlabs" target="_blank">@weekendlabs</Link>
             <br />
             <span>LinkedIn: </span>
-            <Link href="https://linkedin.com/in/bick" target="_blank">@bick</Link>
+            <Link href="https://linkedin.com/company/weekend-labs" target="_blank">@weekendlabs</Link>
             <br />
             <span>GitHub: </span>
-            <Link href="https://github.com/bick" target="_blank">@bick</Link>
-            <br />
-            <span>ProductHunt: </span>
-            <Link href="https://producthunt.com/@bick" target="_blank">@bick</Link>
-            <br />
-            <span>Instagram: </span>
-            <Link href="https://instagram.com/owenbick" target="_blank">@owenbick</Link>
+            <Link href="https://github.com/weekendlabsllc" target="_blank">@weekendlabs</Link>
           </div>
         </section>
       </Layout>

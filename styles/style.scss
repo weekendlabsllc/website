@@ -1,7 +1,7 @@
 /* Breakpoints */
 @import "breakpoints/base.scss";
-@media (min-width: 1200px) {
-  @import "breakpoints/1200up.scss";
+@media (min-width: 992px) {
+  @import "breakpoints/992up.scss";
 }
 
 /* Partials */
