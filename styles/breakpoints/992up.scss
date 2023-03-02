@@ -84,3 +84,13 @@
         }
     }
 }
+
+.footer {
+    .footer__list {
+        flex-direction: row;
+
+        .footer__list__item {
+            margin: 0 2rem 0 0;
+        }
+    }
+}

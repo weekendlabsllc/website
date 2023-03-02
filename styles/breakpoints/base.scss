@@ -353,9 +353,10 @@ h3 {
   .footer__list {
     display: flex;
     margin: 2rem 0;
+    flex-direction: column;
 
     .footer__list__item {
-      margin: 0 2rem 0 0;
+      margin: 0 2rem 2rem 0;
 
       .footer__list__link {
         color: var(--white);
@@ -377,6 +378,7 @@ h3 {
 
   span {
     opacity: .5;
+    line-height: 1.5;
   }
 }
 
