@@ -44,10 +44,6 @@ export default function Home() {
                 <Link href="https://impossiblechess.com" target="_blank">Impossible Chess</Link>
                 <span>, How long can you last against the world's best chess engine?</span>
               </li>
-              <li>
-                <Link href="https://websitehalloffame.org" target="_blank">Website Hall of Fame</Link>
-                <span>, A collection of some awesome websites</span>
-              </li>
             </ul>
           </div>
         </section>
