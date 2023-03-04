@@ -44,6 +44,10 @@ export default function Home() {
                 <Link href="https://impossiblechess.com" target="_blank">Impossible Chess</Link>
                 <span>, How long can you last against the world's best chess engine?</span>
               </li>
+              <li>
+                <Link href="https://github.com/weekendlabsllc/skeleton" target="_blank">Skeleton</Link>
+                <span>, An open source WordPress starter theme for developers</span>
+              </li>
             </ul>
           </div>
         </section>
