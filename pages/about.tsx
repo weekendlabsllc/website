@@ -17,7 +17,7 @@ export default function Home() {
       <Layout>
         <section className="hero">
           <div className="container">
-            <h1>About Weekend Labs</h1>
+            <h1>About <br className="mobile-only" />Weekend Labs</h1>
           </div>
         </section>
         <section className="about">

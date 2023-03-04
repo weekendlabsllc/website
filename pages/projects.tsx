@@ -24,22 +24,22 @@ export default function Home() {
           <div className="container">
             <div className="portfolio__list">
               <Link className="portfolio__item" href="https://bostonjuniorbruins.com" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/bostonjuniorbruins.jpeg" alt="Boston Junior Bruins." />
+                <img src="https://cdn.weekendlabs.net/bostonjuniorbruins.webp" alt="Boston Junior Bruins." />
                 <h3>Boston Junior Bruins</h3>
                 <p>Design / Engineering</p>
               </Link>
               <Link className="portfolio__item" href="https://palmerpads.com" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/palmer-pads.png" alt="Palmer Pads." />
+                <img src="https://cdn.weekendlabs.net/palmer-pads.webp" alt="Palmer Pads." />
                 <h3>Palmer Pads</h3>
                 <p>Design / Engineering</p>
               </Link>
               <Link className="portfolio__item" href="https://flosstime.io" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/flosstime.png" alt="FlossTime." />
+                <img src="https://cdn.weekendlabs.net/flosstime.webp" alt="FlossTime." />
                 <h3>FlossTime</h3>
                 <p>Strategy / Design / Engineering</p>
               </Link>
-              <Link className="portfolio__item" href="https://flosstime.io" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/cause.png" alt="CAUSE Hair Salon." />
+              <Link className="portfolio__item" href="https://causehairsalon.com" target="_blank" rel="nofollow">
+                <img src="https://cdn.weekendlabs.net/cause.webp" alt="CAUSE Hair Salon." />
                 <h3>CAUSE</h3>
                 <p>Strategy / Design / Engineering</p>
               </Link>
