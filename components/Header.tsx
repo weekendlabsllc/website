@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 export default function Header() {
     const router = useRouter();
@@ -12,8 +11,22 @@ export default function Header() {
     const toggleClass = () => {
         setActive(!isActive);
     };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > 0) {
+                setActive(true);
+            } else {
+                setActive(false);
+            }
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
-        <header className="header">
+        <header className={isActive ? "header active" : "header"}>
             <div className='container'>
                 <div className="header__logo">
                     <Link href="/">
@@ -32,7 +45,7 @@ export default function Header() {
                         </Link>
                     </li>
                     <li className="header__item">
-                        <Link className='header__link disabled' href="#">
+                        <Link className={currentRoute === "/careers" ? "header__link active" : "header__link"} href="/careers">
                             Careers
                         </Link>
                     </li>

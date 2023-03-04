@@ -10,7 +10,8 @@ const Layout = ({ children }: LayoutProps) => {
   const router = useRouter();
   const homePage = router.pathname === '/';
   const aboutPage = router.pathname === '/about';
-  const layoutClasses = `${styles.layout} ${homePage ? 'background background__home' : ''} ${aboutPage ? 'background background__about' : ''}`;
+  const careersPage = router.pathname === '/careers';
+  const layoutClasses = `${styles.layout} ${homePage ? 'background background__home' : ''} ${aboutPage ? 'background background__about' : ''} ${careersPage ? 'background background__careers' : ''}`;
 
   return (
     <div className={layoutClasses}>
