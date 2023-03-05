@@ -28,7 +28,7 @@ export default function Home() {
         </section>
         <section className="social">
           <div className="container">
-            <h3>This website was built using NextJS, TypeScript, SASS, and Vercel.</h3>
+            <h3>This website was built using NextJS, TypeScript, SASS, and AWS.</h3>
           </div>
         </section>
         <section className="social">
