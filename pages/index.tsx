@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Weekend Labs – A product consultancy based in Boston
+          Weekend Labs – A software consultancy based in Boston
         </title>
         <link rel="icon" href="./static/favicon.ico" />
         <meta name="description" content="Weekend Labs is a full-service software consultancy based in Boston." />
