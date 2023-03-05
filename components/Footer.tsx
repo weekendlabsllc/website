@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
+
 
 export default function Footer() {
     return (
@@ -21,13 +23,28 @@ export default function Footer() {
                         </Link>
                     </li>
                     <li className="footer__list__item">
-                        <Link href="/careers" className="footer__list__link disabled">
+                        <Link href="/careers" className="footer__list__link">
                             Careers
                         </Link>
                     </li>
                     <li className="footer__list__item">
                         <Link href="/contact" className="footer__list__link">
                             Contact
+                        </Link>
+                    </li>
+                    <li className="footer__list__item footer__list__social footer__list__social-margin">
+                        <Link href="https://twitter.com/weekendlabsllc" className="footer__list__link" target="_blank" rel="nofollow">
+                            <FaTwitter />
+                        </Link>
+                    </li>
+                    <li className="footer__list__item footer__list__social">
+                        <Link href="https://github.com/weekendlabsllc" className="footer__list__link" target="_blank" rel="nofollow">
+                            <FaGithub />
+                        </Link>
+                    </li>
+                    <li className="footer__list__item footer__list__social">
+                        <Link href="https://linkedin.com/company/weekend-labs" className="footer__list__link" target="_blank" rel="nofollow">
+                            <FaLinkedin />
                         </Link>
                     </li>
                 </ul>
