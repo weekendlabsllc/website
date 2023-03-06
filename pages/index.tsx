@@ -45,6 +45,10 @@ export default function Home() {
                 <span>, How long can you last against the world's best chess engine?</span>
               </li>
               <li>
+                <Link href="https://whois.weekendlabs.net" target="_blank">WHOIS by Weekend Labs</Link>
+                <span>, Unlock the secrets of any domain with just one WHOIS search.</span>
+              </li>
+              <li>
                 <Link href="https://github.com/weekendlabsllc/skeleton" target="_blank">Skeleton</Link>
                 <span>, An open source WordPress starter theme for developers</span>
               </li>
