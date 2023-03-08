@@ -48,11 +48,11 @@ export default function Home() {
                 <h3>FlossTime</h3>
                 <p>Strategy / Design / Engineering</p>
               </Link>
-              <Link className="portfolio__item" href="https://causehairsalon.com" target="_blank" rel="nofollow">
+              {/* <Link className="portfolio__item" href="https://causehairsalon.com" target="_blank" rel="nofollow">
                 <img src="https://cdn.weekendlabs.net/cause.webp" alt="CAUSE Hair Salon." />
                 <h3>CAUSE</h3>
                 <p>Strategy / Design / Engineering</p>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
