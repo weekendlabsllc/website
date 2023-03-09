@@ -1,19 +1,19 @@
 import React from 'react';
-import { Analytics } from '@vercel/analytics/react';
+import { GoogleAnalytics } from "nextjs-google-analytics";
 import '../styles/style.scss';
 
-interface BickProps {
+interface WeekendLabsProps {
   Component: React.ComponentType;
   pageProps: Record<string, unknown>;
 }
 
-const Bick: React.FC<BickProps> = ({ Component, pageProps }) => {
+const WeekendLabs: React.FC<WeekendLabsProps> = ({ Component, pageProps }) => {
   return (
     <>
+      <GoogleAnalytics />
       <Component {...pageProps} />
-      <Analytics />
     </>
   );
 };
 
-export default Bick;
+export default WeekendLabs;

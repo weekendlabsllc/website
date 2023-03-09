@@ -429,12 +429,15 @@ h3 {
         &-margin {
           margin-left: auto;
         }
+
         .footer__list__link {
           border-bottom: 0;
           font-size: 1.5rem;
+
           &:hover {
             opacity: .5;
           }
+
           &:after {
             content: "";
             margin-left: 0;
