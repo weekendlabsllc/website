@@ -30,7 +30,7 @@ export default function Contact() {
         <section className="time">
           <div className="container">
             <Clock format={'MMMM Mo, YYYY, h:mm:ss A'} ticking={true} timezone={'US/Eastern'}></Clock>
-            <span>EST - Boston, Massachusetts</span>
+            <span>UTC-05:00 - Boston, MA</span>
           </div>
         </section>
         <section className="social">

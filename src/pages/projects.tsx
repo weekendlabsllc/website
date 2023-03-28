@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "../components/Image";
 
 export default function Home() {
   return (
@@ -24,32 +25,32 @@ export default function Home() {
           <div className="container">
             <div className="portfolio__list">
               <Link className="portfolio__item" href="https://spoteasy.com" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/spoteasy.webp" alt="Spot Easy." />
+                <Image src="https://cdn.weekendlabs.net/spoteasy.webp" alt="Spot Easy." />
                 <h3>Spot Easy</h3>
                 <p>Strategy / Design / Engineering</p>
               </Link>
               <Link className="portfolio__item" href="https://discountdrugnetwork.com" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/discountdrugnetwork.webp" alt="Discount Drug Network." />
+                <Image src="https://cdn.weekendlabs.net/discountdrugnetwork.webp" alt="Discount Drug Network." />
                 <h3>Discount Drug Network</h3>
                 <p>Strategy / Design / Engineering</p>
               </Link>
               <Link className="portfolio__item" href="https://bostonjuniorbruins.com" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/bostonjuniorbruins.webp" alt="Boston Junior Bruins." />
+                <Image src="https://cdn.weekendlabs.net/bostonjuniorbruins.webp" alt="Boston Junior Bruins." />
                 <h3>Boston Junior Bruins</h3>
                 <p>Design / Engineering</p>
               </Link>
               <Link className="portfolio__item" href="https://palmerpads.com" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/palmer-pads.webp" alt="Palmer Pads." />
+                <Image src="https://cdn.weekendlabs.net/palmer-pads.webp" alt="Palmer Pads." />
                 <h3>Palmer Pads</h3>
                 <p>Design / Engineering</p>
               </Link>
               <Link className="portfolio__item" href="https://flosstime.io" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/flosstime.webp" alt="FlossTime." />
+                <Image src="https://cdn.weekendlabs.net/flosstime.webp" alt="FlossTime." />
                 <h3>FlossTime</h3>
                 <p>Strategy / Design / Engineering</p>
               </Link>
               {/* <Link className="portfolio__item" href="https://causehairsalon.com" target="_blank" rel="nofollow">
-                <img src="https://cdn.weekendlabs.net/cause.webp" alt="CAUSE Hair Salon." />
+                <Image src="https://cdn.weekendlabs.net/cause.webp" alt="CAUSE Hair Salon." />
                 <h3>CAUSE</h3>
                 <p>Strategy / Design / Engineering</p>
               </Link> */}

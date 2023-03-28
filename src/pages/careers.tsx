@@ -3,6 +3,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "../components/Image";
 
 export default function About() {
     return (
@@ -17,7 +18,7 @@ export default function About() {
             <Layout>
                 <section className="hero">
                     <div className="container">
-                        <img src="https://cdn.weekendlabs.net/wework.webp" />
+                        <Image src="https://cdn.weekendlabs.net/wework.webp" alt='Weekend Labs headquarters' />
                         <h1>Work @ Weekend Labs</h1>
                     </div>
                 </section>

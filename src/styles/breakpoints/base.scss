@@ -8,14 +8,14 @@ body {
 }
 
 a {
-  border-bottom: 2px solid var(--link);
+  border-bottom: 1px solid var(--link);
   text-decoration: none;
-  padding-bottom: 2px;
+  padding-bottom: 1px;
   max-width: fit-content;
 
   &:hover {
-    border-bottom: 2px solid transparent;
     text-decoration: none !important;
+    border-bottom: 1px solid var(--white);
   }
 
   &:link[href^="https://"]:after,
@@ -409,6 +409,10 @@ h3 {
       .footer__list__link {
         color: var(--white);
         font-size: 1.125rem;
+        border-bottom: 0;
+        &:hover {
+          opacity: .75;
+        }
 
         &.disabled {
           border-bottom: 0;
@@ -435,7 +439,7 @@ h3 {
           font-size: 1.5rem;
 
           &:hover {
-            opacity: .5;
+            opacity: .75;
           }
 
           &:after {
