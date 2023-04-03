@@ -28,10 +28,10 @@ export default function Home() {
           <div className="container">
             <h3>Featured Projects</h3>
             <ul className="bullets__list">
-              <li>
+              {/* <li>
                 <Link href="https://spoteasy.com" target="_blank">Spot Easy</Link>
                 <span>, Boston's #1 apartment rentals directory</span>
-              </li>
+              </li> */}
               <li>
                 <Link href="https://discountdrugnetwork.com" target="_blank">Discount Drug Network</Link>
                 <span>, A pharmaceutical drug pricing API</span>

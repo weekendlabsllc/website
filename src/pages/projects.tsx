@@ -24,11 +24,11 @@ export default function Home() {
         <section className="portfolio">
           <div className="container">
             <div className="portfolio__list">
-              <Link className="portfolio__item" href="https://spoteasy.com" target="_blank" rel="nofollow">
+              {/* <Link className="portfolio__item" href="https://spoteasy.com" target="_blank" rel="nofollow">
                 <Image src="https://cdn.weekendlabs.net/spoteasy.webp" alt="Spot Easy." />
                 <h3>Spot Easy</h3>
                 <p>Strategy / Design / Engineering</p>
-              </Link>
+              </Link> */}
               <Link className="portfolio__item" href="https://discountdrugnetwork.com" target="_blank" rel="nofollow">
                 <Image src="https://cdn.weekendlabs.net/discountdrugnetwork.webp" alt="Discount Drug Network." />
                 <h3>Discount Drug Network</h3>
