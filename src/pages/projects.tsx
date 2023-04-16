@@ -46,8 +46,8 @@ export default function Home() {
               </Link>
               <Link className="portfolio__item" href="https://flosstime.io" target="_blank" rel="nofollow">
                 <Image src="https://cdn.weekendlabs.net/flosstime.webp" alt="FlossTime." />
-                <h3>FlossTime</h3>
-                <p>Strategy / Design / Engineering</p>
+                <h3>LaVida Scholars</h3>
+                <p>Design / Engineering</p>
               </Link>
               {/* <Link className="portfolio__item" href="https://causehairsalon.com" target="_blank" rel="nofollow">
                 <Image src="https://cdn.weekendlabs.net/cause.webp" alt="CAUSE Hair Salon." />
