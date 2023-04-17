@@ -9,6 +9,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   const router = useRouter();
   const homePage = router.pathname === '/';
+  const projectsPage = router.pathname === '/projects';
   const aboutPage = router.pathname === '/about';
   const careersPage = router.pathname === '/careers';
 
@@ -20,7 +21,7 @@ const Layout = ({ children }: LayoutProps) => {
     setBackgroundClasses(`${styles.background} background__loaded`);
   }, []);
 
-  const layoutClasses = `${styles.layout} ${homePage ? 'background__home' : ''} ${aboutPage ? 'background__about' : ''} ${careersPage ? 'background__careers' : ''} ${backgroundClasses}`.split(' ').filter(c => c).join(' ').split('undefined').filter(c => c).join(' ');
+  const layoutClasses = `${styles.layout} ${homePage ? 'background__home' : ''} ${projectsPage ? 'background__projects' : ''} ${aboutPage ? 'background__about' : ''} ${careersPage ? 'background__careers' : ''} ${backgroundClasses}`.split(' ').filter(c => c).join(' ').split('undefined').filter(c => c).join(' ');
 
   return (
     <div className={layoutClasses}>

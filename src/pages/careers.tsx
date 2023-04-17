@@ -18,7 +18,6 @@ export default function About() {
             <Layout>
                 <section className="hero">
                     <div className="container">
-                        <Image src="https://cdn.weekendlabs.net/wework.webp" alt='Weekend Labs headquarters' />
                         <h1>Work @ Weekend Labs</h1>
                     </div>
                 </section>
