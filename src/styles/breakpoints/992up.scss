@@ -96,6 +96,14 @@
 
         .footer__list__item {
             margin: 0 2rem 0 0;
+
+            &.footer__list__social {
+                margin-left: 1.5rem;
+            }
+
+            &.footer__list__social-margin {
+                margin-left: auto;
+            }
         }
     }
 }
