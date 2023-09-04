@@ -114,7 +114,8 @@ export default function Home() {
                 <div className="portfolio__meta">
                   <blockquote>
                     "Seriously, the best. There is no better team to help you
-                    build some internal applications. They are fast, efficient, and have a great eye for design."
+                    build some internal applications. They are fast, efficient,
+                    and have a great eye for design."
                   </blockquote>
                   <h3>FlossTime</h3>
                   <p>Strategy / Design / Engineering</p>

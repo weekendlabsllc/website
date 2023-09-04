@@ -50,6 +50,12 @@ export default function About() {
                                 <div><Link href="mailto:apply@weekendlabs.net?subject=Backend%20Engineer">Apply here</Link></div>
                             </div>
                             <div className="careers__item">
+                                <h3>Product Designer</h3>
+                                <span>🇺🇸 U.S. only, freelance</span>
+                                <p>We have multiple projects where we need some help with designing products and it would be nice to work with someone on an ongoing basis.</p>
+                                <div><Link href="mailto:apply@weekendlabs.net?subject=Graphic%20Designer">Apply here</Link></div>
+                            </div>
+                            <div className="careers__item">
                                 <h3>Graphic Designer</h3>
                                 <span>🇺🇸 U.S. only, freelance</span>
                                 <p>We have multiple projects where we need some help with branding, illustrations, etc. and it would be nice to work with someone on an ongoing basis.</p>
