@@ -46,6 +46,12 @@ html {
     }
 }
 
+@media (min-width: 1350px) {
+    .container {
+        max-width: 1160px;
+    }
+}
+
 .container-fluid {
     width: 100%;
     padding-right: 15px;
@@ -66,8 +72,8 @@ html {
     margin-left: 0;
 }
 
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
     padding-right: 0;
     padding-left: 0;
 }
