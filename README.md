@@ -1,4 +1,4 @@
-# Weekend Labs Website
-This is the code for Weekend Labs website. 
+# Owen Bick's Website
+This is the code for my personal website. 
 
-You can view it at [weekendlabs.net](https://weekendlabs.net).
+You can view it at [owenbick.com](https://owenbick.com).
