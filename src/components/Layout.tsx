@@ -1,33 +1,37 @@
-import React, { ReactNode, useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
+import React, {ReactNode, useEffect, useState} from 'react';
+import {useRouter} from 'next/router';
 import styles from './layout.module.scss';
+import Stars from "./stars";
 
 interface LayoutProps {
-  children: ReactNode;
+    children: ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => {
-  const router = useRouter();
-  const homePage = router.pathname === '/';
-  const projectsPage = router.pathname === '/projects';
-  const aboutPage = router.pathname === '/about';
-  const careersPage = router.pathname === '/careers';
+const Layout = ({children}: LayoutProps) => {
+    const router = useRouter();
+    const homePage = router.pathname === '/';
+    const projectsPage = router.pathname === '/projects';
+    const aboutPage = router.pathname === '/about';
+    const careersPage = router.pathname === '/careers';
 
-  const [loaded, setLoaded] = useState(false);
-  const [backgroundClasses, setBackgroundClasses] = useState(`${styles.background} background__initial`);
+    const [loaded, setLoaded] = useState(false);
+    const [backgroundClasses, setBackgroundClasses] = useState(`${styles.background} background__initial`);
 
-  useEffect(() => {
-    setLoaded(true);
-    setBackgroundClasses(`${styles.background} background__loaded`);
-  }, []);
+    useEffect(() => {
+        setLoaded(true);
+        setBackgroundClasses(`${styles.background} background__loaded`);
+    }, []);
 
-  const layoutClasses = `${styles.layout} ${homePage ? 'background__home' : ''} ${projectsPage ? 'background__projects' : ''} ${aboutPage ? 'background__about' : ''} ${careersPage ? 'background__careers' : ''} ${backgroundClasses}`.split(' ').filter(c => c).join(' ').split('undefined').filter(c => c).join(' ');
+    const layoutClasses = `${styles.layout} ${homePage ? 'background__home' : ''} ${projectsPage ? 'background__projects' : ''} ${aboutPage ? 'background__about' : ''} ${careersPage ? 'background__careers' : ''} ${backgroundClasses}`.split(' ').filter(c => c).join(' ').split('undefined').filter(c => c).join(' ');
 
-  return (
-    <div className={layoutClasses}>
-      {children}
-    </div>
-  );
+    return (
+        <div className={layoutClasses}>
+            <div className="max-h-screen">
+                <Stars/>
+            </div>
+            {children}
+        </div>
+    );
 };
 
 export default Layout;
